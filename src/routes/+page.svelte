@@ -1,4 +1,4 @@
-<h1 class="text-3xl font-bold underline">
+<h1 class="text-3xl flex font-bold underline">
     Hello world!
 </h1>
 
@@ -7,3 +7,4 @@
         background-color: theme(colors.gray.100);
     }
 </style>
+
