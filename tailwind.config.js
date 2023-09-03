@@ -2,10 +2,10 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    fontfamily: {
+    fontFamily: {
       sansSerif: ["Source Sans 3", "sans-serif"],
       mono: ['Source Code Pro', "monospace"],
-      handWritting: ["Kalam", "cursive"],
+      handWriting: ["Kalam", "cursive"],
 
 },
     extend: {
