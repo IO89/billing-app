@@ -8,7 +8,7 @@ import Search from "$lib/Icon/Search.svelte";
     type="text"
     placeholder="Search by keyword"
     name="search"
-    class="w-72 border-b-2 border-dashed border-b-pastelPurple bg-transparent font-sansSerif text-xl text-black outline-none focus:border-b-lavenderIndigo focus:border-solid "
+    class="w-full lg:w-72 border-b-2 border-dashed border-b-pastelPurple bg-transparent font-sansSerif lg:text-xl text-base text-black outline-none focus:border-b-lavenderIndigo focus:border-solid "
   />
-  <button class="font-sansSerif text-xl font-black text-pastelPurple">Search</button>
+  <button class="font-sansSerif lg:text-xl text-lg font-black text-pastelPurple">Search</button>
 </div>
