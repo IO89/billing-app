@@ -1,7 +1,3 @@
-<h1 class="text-3xl flex font-bold underline">
-    Hello world!
-</h1>
-
-<style lang="postcss">
+<h1 class='font-bold underline flex text-3xl'>Hello world!</h1>
+<style lang='postcss'>
 </style>
-
