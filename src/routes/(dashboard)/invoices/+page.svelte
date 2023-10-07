@@ -11,7 +11,7 @@
 </svelte:head>
 
 <div
-	class='flex flex-col-reverse md:flex-row items-start justify-between md:items-center lg:mb-16 mb-7 gap-y-6 md:gap-y-4'
+	class='flex flex-col-reverse md:flex-row items-start md:items-center justify-between lg:mb-16 mb-7 gap-y-6 md:gap-y-4'
 >
 	<Search />
 	<!--  New Invoices -->
@@ -46,7 +46,7 @@
 		<div class='text-sm lg:text-lg dueDate'>19.9.2023</div>
 		<div class='text-sm lg:text-lg invoiceNumber'>12345</div>
 		<div class='text-base lg:text-xl font-bold clientName'>Flamingo client</div>
-		<div class='text-sm lg:text-lg font-mono font-bold amount'>1000$</div>
+		<div class='text-sm text-right lg:text-lg font-mono font-bold amount'>1000$</div>
 		<div class='text-sm lg:text-lg center viewButton hidden lg:block'>
 			<a href='#' class='text-pastelPurple hover:text-daisyBush'>
 				<View />
