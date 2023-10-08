@@ -15,10 +15,11 @@ interface Invoice {
 }
 
 interface Client {
-	clientStatus: ClientStatus;
 	city: string;
+	clientStatus: ClientStatus;
 	email: string;
 	id: string;
+	name: string;
 	state: string;
 	street: string;
 	zip: string;

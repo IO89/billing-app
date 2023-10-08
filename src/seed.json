@@ -1,0 +1,74 @@
+{
+  "invoices": [
+    {
+      "client": {
+        "clientStatus": "active",
+        "name": "Flamingo Filter",
+        "city": "Paris",
+        "email": "flamingo@filter.com",
+        "id": "1",
+        "state": "French state or some region",
+        "street": "Rue de la Paix",
+        "zip": "75000"
+      },
+      "createdAt": "2023-10-08",
+      "dueDate": "2023-10-28",
+      "id": "1",
+      "invoiceNumber": "1",
+      "invoiceStatus": "draft",
+      "issueDate": "2023-10-08",
+      "lineItems": [
+        {
+          "amount": 100000,
+          "description": "Some description",
+          "id": "1",
+          "quantity": "1"
+        },
+        {
+          "amount": 300000,
+          "description": "Some description",
+          "id": "2",
+          "quantity": "1"
+        }
+      ],
+      "notes": "Some notes",
+      "subject": "Some subject",
+      "terms": "Some payment terms"
+    },
+    {
+      "client": {
+        "clientStatus": "active",
+        "city": "Helsinki",
+        "email": "some@email.com",
+        "id": "2",
+        "state": "Uusimaa",
+        "street": "Katu 1",
+        "zip": "00100",
+        "name": "Human engineering"
+      },
+      "createdAt": "2023-05-02",
+      "dueDate": "2023-05-22",
+      "id": "2",
+      "invoiceNumber": "2",
+      "invoiceStatus": "sent",
+      "issueDate": "2023-05-02",
+      "lineItems": [
+        {
+          "amount": 160000,
+          "description": "Some description",
+          "id": "1",
+          "quantity": "1"
+        },
+        {
+          "amount": 450000,
+          "description": "Some description",
+          "id": "2",
+          "quantity": "1"
+        }
+      ],
+      "notes": "Some notes",
+      "subject": "Some subject",
+      "terms": "Some payment terms"
+    }
+  ]
+}
